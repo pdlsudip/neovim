@@ -1,0 +1,14 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "grep",
+        "window",
+        "on_attach",
+        "import",
+        "nvim",
+        "cmp",
+        "plugin",
+        "completions",
+        "completion"
+    ]
+}
