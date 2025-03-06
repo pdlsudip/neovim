@@ -10,6 +10,7 @@ if not vim.loop.fs_stat(lazypath) then
 	})
 end
 require("vim-options")
-require("alpha")
 vim.opt.rtp:prepend(lazypath)
+vim.keymap.set("n", "<C-n>", ":Ex<CR>")
+
 require("lazy").setup("plugins")
